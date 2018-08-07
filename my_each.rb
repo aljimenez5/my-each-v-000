@@ -1,6 +1,6 @@
 def my_each(collection)
   counter = 0
-  while collection.sizedo
+  while collection.size > 0 do
     yield(element)
     counter += 1
   end
