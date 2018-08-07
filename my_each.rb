@@ -4,5 +4,4 @@ def my_each(collection)
     yield
     counter += 1
   end
-  return element
 end
