@@ -2,7 +2,7 @@ require 'pry'
 
 def my_each(collection)
   index = 0
-  while counter < collection.size do
+  while index < collection.size do
     yield(collection[counter])
     counter += 1
   end
